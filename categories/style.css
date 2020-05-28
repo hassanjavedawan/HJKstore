@@ -1,0 +1,149 @@
+body{
+    background-color: whitesmoke;
+}
+.navbar{
+    background-color:#6200EE !important;
+    height: 70px !important;
+}
+.nav-link {
+    color: white !important;
+    /* font-size: 32px !important; */
+    font-weight: bold;
+}
+.navbar-brand img{
+    width: 250px;
+   height: 50px;
+   
+}
+.navbar-brand {
+    color: white !important;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.nav-item a:hover{
+    background-color: white !important;
+    color: black !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    border-radius: 20px  !important;
+    text-decoration: underline;
+   
+}
+#page{
+    border-radius: 20px;
+    background-color: white;
+    color: black !important;
+}
+img{
+    width: 100%
+}
+.fa{
+    font-size: 32px !important;
+}
+
+.categories{
+   
+    margin-top:50px ;
+}
+.card{
+    width: 250px;
+   text-align: center !important;
+   color:#6200EE !important;
+}
+.btn-primary{
+    width: 100%;
+background-color: rgb(247, 8, 8);
+    
+    border: 0px !important;
+}
+.btn-primary:hover{
+    background-color:#6200EE !important;
+    color: white !important;
+    font-weight: bold;
+    font-style: italic;
+    border: 1px grey solid !important;
+}
+.heading{
+   text-align: center;
+    justify-content: center;
+    color:white ;
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: none;
+    background-color: #6200EE;
+}
+.heading a{
+    color:#424242 ;
+}
+ 
+
+/* .contect-main{
+ align-items: center;
+} */
+.contect {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: underline;
+    justify-content: center;
+}
+.contect a{
+    color:#424242
+}
+.contect > img{
+    width: 200px;
+    height: 200px;
+}
+.heading > h1{
+    text-shadow: 2px 2px 4px white;
+}
+.footer{
+    background-color:#6200EE ;
+    width: 100%;
+}
+.footer-link ul{
+    list-style: none;
+}
+.footer-link ul li{
+    width: 40px;
+    list-style: none;
+    display: inline-block;
+}
+.footer-link a{
+    color: white;
+}
+.footer-copyright{
+    font-weight: bold;
+    background-color:#6200EE ;
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.fa-angle-double-up{
+    font-size: 70px !important;
+    color: #6200EE;
+    position: fixed;
+    bottom: 20px;
+}
+@media only screen and (max-width: 600px){
+    .navbar{
+        height: auto !important;
+    }
+    #page{
+        background-color: #6200EE;
+    }
+    .navbar-brand img{
+        width: 200px;
+    }
+   .card{
+width: 100%;
+margin-top: 10px;
+   }
+   .fa-angle-double-up{
+    position: fixed;
+    right: 5px;
+}
+  }
+
+

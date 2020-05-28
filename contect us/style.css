@@ -1,0 +1,112 @@
+body{
+    background-color: whitesmoke;
+}
+.navbar{
+    background-color:#6200EE !important;
+    height: 70px !important;
+}
+.nav-link {
+    color: white !important;
+    /* font-size: 32px !important; */
+    font-weight: bold;
+}
+.navbar-brand img{
+    width: 250px;
+    height: 50px;
+   
+}
+.navbar-brand {
+    color: white !important;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.nav-item a:hover{
+    background-color: white !important;
+    color: black !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    border-radius: 20px  !important;
+    text-decoration: underline;
+   
+}
+#page{
+    border-radius: 20px;
+    background-color: white;
+  color: black !important;
+}
+img{
+    width: 100%
+}
+.fa-user-circle-o, .fa-shopping-cart{
+    font-size: 32px !important;
+}
+
+.fa{
+    font-size: 32px !important;
+}
+.fa-sign-in ,.fa-user-plus{
+    font-size: 70px !important;
+    margin-right: 10px;
+    /* color:grey; */
+
+}
+.main{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.btn{
+    
+    width: auto !important;
+} 
+.btn-primary ,.btn-danger{
+    width: auto !important;
+    margin: 10px !important;
+}
+.footer{
+    background-color:#6200EE ;
+    width: 100%;
+}
+.footer-link ul{
+    list-style: none;
+}
+.footer-link ul li{
+    width: 40px;
+    list-style: none;
+    display: inline-block;
+}
+.footer-link a{
+    color: white;
+}
+.footer-copyright{
+    font-weight: bold;
+    background-color:#6200EE ;
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.fa-angle-double-up{
+    font-size: 70px !important;
+    color: #6200EE;
+    position: relative;
+    bottom: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        height: auto !important;
+    }
+    .navbar-brand img{
+        width: 200px;
+    }
+    #page{
+        background-color: #6200EE;
+    }  
+    .fa-angle-double-up{
+        position: fixed;
+        right: 5px;
+    }
+  }
